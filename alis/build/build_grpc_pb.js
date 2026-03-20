@@ -3,7 +3,7 @@
 'use strict';
 var grpc = require('@grpc/grpc-js');
 var alis_build_build_pb = require('../../alis/build/build_pb.js');
-var google_longrunning_operations_pb = require('../../google/longrunning/operations_pb.js');
+var google_longrunning_operations_pb = require('@alis-build/google-common-protos/google/longrunning/operations_pb.js');
 var google_protobuf_field_mask_pb = require('google-protobuf/google/protobuf/field_mask_pb.js');
 var google_protobuf_timestamp_pb = require('google-protobuf/google/protobuf/timestamp_pb.js');
 

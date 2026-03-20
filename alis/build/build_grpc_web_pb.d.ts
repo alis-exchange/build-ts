@@ -1,7 +1,7 @@
 import * as grpcWeb from 'grpc-web';
 
 import * as alis_build_build_pb from '../../alis/build/build_pb'; // proto import: "alis/build/build.proto"
-import * as google_longrunning_operations_pb from '../../google/longrunning/operations_pb'; // proto import: "google/longrunning/operations.proto"
+import * as google_longrunning_operations_pb from '@alis-build/google-common-protos/google/longrunning/operations_pb'; // proto import: "google/longrunning/operations.proto"
 
 
 export class BuildServiceClient {
@@ -65,4 +65,3 @@ export class BuildServicePromiseClient {
   ): Promise<alis_build_build_pb.ListBuildSpecsResponse>;
 
 }
-

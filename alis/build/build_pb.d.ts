@@ -1,6 +1,6 @@
 import * as jspb from 'google-protobuf'
 
-import * as google_longrunning_operations_pb from '../../google/longrunning/operations_pb'; // proto import: "google/longrunning/operations.proto"
+import * as google_longrunning_operations_pb from '@alis-build/google-common-protos/google/longrunning/operations_pb'; // proto import: "google/longrunning/operations.proto"
 import * as google_protobuf_field_mask_pb from 'google-protobuf/google/protobuf/field_mask_pb'; // proto import: "google/protobuf/field_mask.proto"
 import * as google_protobuf_timestamp_pb from 'google-protobuf/google/protobuf/timestamp_pb'; // proto import: "google/protobuf/timestamp.proto"
 

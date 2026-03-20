@@ -4,8 +4,8 @@
 // file: alis/build/build.proto
 
 import * as alis_build_build_pb from "../../alis/build/build_pb";
-import * as google_longrunning_operations_pb from "../../google/longrunning/operations_pb";
-import * as grpc from "grpc";
+import * as google_longrunning_operations_pb from "@alis-build/google-common-protos/google/longrunning/operations_pb";
+import * as grpc from "@grpc/grpc-js";
 
 interface IBuildServiceService extends grpc.ServiceDefinition<grpc.UntypedServiceImplementation> {
   retrieveMyWorkstation: grpc.MethodDefinition<alis_build_build_pb.RetrieveMyWorkstationRequest, google_longrunning_operations_pb.Operation>;

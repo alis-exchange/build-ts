@@ -15,7 +15,7 @@ var jspb = require('google-protobuf');
 var goog = jspb;
 var global = globalThis;
 
-var google_longrunning_operations_pb = require('../../google/longrunning/operations_pb.js');
+var google_longrunning_operations_pb = require('@alis-build/google-common-protos/google/longrunning/operations_pb.js');
 goog.object.extend(proto, google_longrunning_operations_pb);
 var google_protobuf_field_mask_pb = require('google-protobuf/google/protobuf/field_mask_pb.js');
 goog.object.extend(proto, google_protobuf_field_mask_pb);
